@@ -1,0 +1,73 @@
+.title {
+   font-family: aesop, sans-serif;
+   font-size: 3.5em;
+   font-weight: 500;
+   /* letter-spacing: 2px; */
+   line-height: 1.5em;
+   text-align: center;
+   color: var(--primary);
+   margin: .45em 0;
+}
+
+.save-the-date-container {
+   margin-top: 2em;
+   margin-bottom: 3em;
+}
+
+.save-the-date p {
+   font-size: 1.4em;
+   text-transform: uppercase;
+   text-align: center;
+   letter-spacing: 4px;
+   margin: 0;
+}
+
+.date {
+   font-weight: 300;
+   padding-bottom: .75em;
+}
+
+.save {
+   font-weight: 600;
+}
+
+.question p {
+   font-family: aesop, sans-serif;
+   font-size: 1.4em;
+   line-height: 2em;
+   text-transform: uppercase;
+   text-align: center;
+   margin: 3.25em 0 1.5em;
+   padding: 0 2em;
+}
+
+.answer-btns-container {
+   /* width: 330px; */
+   /* display: flex; */
+   /* justify-content: space-between; */
+   margin-bottom: 2em;
+   text-align: center;
+}
+
+.answer-btns-container button {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   border-radius: 5px;
+}
+
+.answer-btn-yes {
+   font-size: 1.25em;
+   color: var(--secondary);
+   background-color: var(--primary);
+   padding: .75em 2em;
+   margin-right: 1em;
+   border: none;
+}
+
+.answer-btn-no {
+   font-size: .95em;
+   color: var(--dark-text);
+   background-color: transparent;
+   padding: .8em 2.1em;
+   border: 1px solid var(--dark-text);
+}

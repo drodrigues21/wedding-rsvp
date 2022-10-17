@@ -1,0 +1,34 @@
+@font-face {
+   font-family: "aesop";
+   src: url('../public/assests/fonts/TAN\ -\ AESOP.otf');
+   src: url('../public/assests/fonts/TAN\ -\ AESOP.otf') format('opentype'),
+        url('../public/assests/fonts/TAN\ -\ AESOP.ttf') format('trutype')
+        url('../public/assests/fonts/TAN\ -\ AESOP.woff2') format('woff2'),
+        url('../public/assests/fonts/TAN\ -\ AESOP.woff') format('woff'),
+}
+ 
+
+:root {
+   --bg: #f3edeb;
+   --dark-text: #6c6461;
+   --light-text: #c0b9b7;
+   --primary: #ff6d1c;
+   --secondary: #fff;
+   --accent: #0fa958;
+}
+
+*, *::after, *::before {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   color: var(--dark-text);
+   background-color: var(--bg);   
+   margin: 0;
+}
+
+.container {
+   max-width: 820px;
+   margin: 0 auto;
+}

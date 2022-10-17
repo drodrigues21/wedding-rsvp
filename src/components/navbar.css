@@ -1,0 +1,24 @@
+.navbar-container {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: var(--secondary);
+   padding: .75em 2em;
+}
+
+.arrows-container {
+   display: flex;
+   gap: 1em;
+}
+
+.arrows-container svg {
+   fill: var(--dark-text);
+}
+
+.home-container svg {
+   fill: var(--dark-text);
+}

@@ -1,0 +1,12 @@
+.logo-container {
+   text-align: center;
+   padding: 3.5em 1.25em 2em;
+}
+
+.logo-container svg {
+   width: 100%;
+   min-width: 75px;
+   fill: var(--dark-text);
+}
+
+ 

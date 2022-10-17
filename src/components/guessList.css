@@ -1,0 +1,22 @@
+.guess-list-container {
+   text-align: center;
+   margin-bottom: 8em;
+}
+
+.guess-list-container h2 {
+   font-family: aesop, sans-serif;
+   font-size: 1.25em;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+.guess-list-container button {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.1em;
+   color: var(--dark-text);
+   background-color: transparent;
+   padding: 1em 2.1em;
+   border: 1px solid var(--dark-text);
+   border-radius: 5px;
+}
