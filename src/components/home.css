@@ -42,9 +42,9 @@
 }
 
 .answer-btns-container {
-   /* width: 330px; */
-   /* display: flex; */
-   /* justify-content: space-between; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
    margin-bottom: 2em;
    text-align: center;
 }
@@ -56,18 +56,93 @@
 }
 
 .answer-btn-yes {
-   font-size: 1.25em;
-   color: var(--secondary);
+   font-size: 1.35em;
    background-color: var(--primary);
    padding: .75em 2em;
    margin-right: 1em;
    border: none;
 }
 
+.answer-btn-yes a {
+   color: var(--secondary);
+   text-decoration: none;
+}
+
 .answer-btn-no {
    font-size: .95em;
-   color: var(--dark-text);
    background-color: transparent;
    padding: .8em 2.1em;
    border: 1px solid var(--dark-text);
 }
+
+.answer-btn-no a {
+   color: var(--dark-text);
+   text-decoration: none;
+}
+
+.maps-guests-btn button {
+   background-color: transparent;
+   padding: 1.35em 1.65em;
+   border: 1px solid var(--dark-text);
+   border-radius: 5px;
+}
+
+.link {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.35em;
+   font-weight: 500;
+   color: var(--dark-text);
+   text-decoration: none;
+}
+
+/* location */
+.location-contrainer {
+   text-align: center;
+   padding: 2.5em 0 0;
+}
+
+.location-header svg {
+   fill: var(--dark-text);
+}
+
+.location-header h2 {
+   display: inline-block;
+   font-family: aesop, sans-serif;
+   font-size: 1.25em;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+.location-address p {
+   font-size: 1.05em;
+   font-weight: 300;
+   text-transform: uppercase;
+   line-height: 2em;
+   margin: 0;
+}
+
+.location-address p span {
+   display: block;
+   font-weight: 600;
+}
+
+.location-map {
+   padding: 1.5em 0 4em;
+}
+
+
+/* guess list */
+.guess-list-container {
+   text-align: center;
+   margin-bottom: 8em;
+}
+
+.guess-list-container h2 {
+   font-family: aesop, sans-serif;
+   font-size: 1.25em;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
