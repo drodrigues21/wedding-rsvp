@@ -56,43 +56,43 @@
 }
 
 .answer-btn-yes {
+   text-decoration: none;
+}
+
+.answer-btn-yes button {
    font-size: 1.35em;
+   color: var(--secondary);
    background-color: var(--primary);
    padding: .75em 2em;
    margin-right: 1em;
    border: none;
 }
 
-.answer-btn-yes a {
-   color: var(--secondary);
+.answer-btn-no {
    text-decoration: none;
 }
 
-.answer-btn-no {
+.answer-btn-no button {
    font-size: .95em;
+   color: var(--dark-text);
    background-color: transparent;
    padding: .8em 2.1em;
    border: 1px solid var(--dark-text);
 }
 
-.answer-btn-no a {
+.link {
    color: var(--dark-text);
    text-decoration: none;
 }
 
 .maps-guests-btn button {
-   background-color: transparent;
-   padding: 1.35em 1.65em;
-   border: 1px solid var(--dark-text);
-   border-radius: 5px;
-}
-
-.link {
    font-family: 'Montserrat', sans-serif;
-   font-size: 1.35em;
-   font-weight: 500;
-   color: var(--dark-text);
-   text-decoration: none;
+   font-size: 1.15em;
+   font-weight: 400;
+   background-color: transparent;
+   padding: 1em 1.1em;
+   border-radius: 5px;
+   border: 1px solid var(--dark-text);
 }
 
 /* location */

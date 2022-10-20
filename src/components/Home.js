@@ -20,12 +20,12 @@ export default function Home() {
                <p>Can you come to our wedding?</p>
             </div>
             <div className="answer-btns-container">
-               <button className="answer-btn-yes">
-                  <Link to="/Name ">Of course!</Link>
-               </button>
-               <button className="answer-btn-no">
-                  <Link to="/SorryMessege">No thanks!</Link>
-               </button>
+               <Link to="/Name" className="answer-btn-yes">
+                  <button>Of course!</button>
+               </Link>
+               <Link to="/SorryMessege" className="answer-btn-no">
+                  <button>No thanks!</button>
+               </Link>
             </div>
          </div>
 
@@ -47,18 +47,18 @@ export default function Home() {
             <div className="location-address">
                <p>1102, Cheonho-daero, Gangdong-gu, <span>Seoul, Republic of Korea</span></p>
             </div>
-            <div className="location-map">
-               <button>
-                  <Link className="link" to="/Location">See on google maps	&#62;</Link>
-               </button>
+            <div className="location-map maps-guests-btn">
+               <Link className="link" to="/Location">
+                  <button>See on google maps &#62;</button>
+               </Link>
             </div>
          </div>
 
          <div className="guess-list-container maps-guests-btn">
             <h2>Guess List</h2>
-            <button>
-               <Link className="link" to="/Guess">Check who's coming &#62;</Link>
-            </button>
+               <Link className="link" to="/GuessList">
+                  <button>Check who's coming &#62;</button>
+               </Link>
          </div>
       </div>
    );

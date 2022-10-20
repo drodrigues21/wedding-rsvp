@@ -14,7 +14,7 @@ export default function Name() {
                </svg> Please type you full name due to so many of the same names in the family
             </p>
             <button type="submit">
-               <Link to="/Confirmation" >Submit</Link>
+               <Link to="/Confirmation">Submit</Link>
             </button>
          </form>
       </div>
